@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="tests.TcReq1_2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- tests.TcReq1_2 -->
+      <class name="tests.TcReq1_1">
+        <methods>
+          <include name="coverSection"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TcReq1_1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

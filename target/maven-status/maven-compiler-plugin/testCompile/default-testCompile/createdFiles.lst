@@ -1,0 +1,10 @@
+tests\TcReq1.class
+tests\TcReq1_3.class
+utility\BaseClass.class
+utility\LocatorsRepository.class
+tests\TcReq1_1.class
+pages\CartPage.class
+pages\HomePage.class
+tests\TcReq1_2.class
+tests\TcReq1_5.class
+pages\ResultPage.class
